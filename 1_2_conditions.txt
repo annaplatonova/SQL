@@ -9,7 +9,8 @@ The ship whose name is assigned to a class is called a lead ship.
 The Classes relation includes the name of the class, type (can be either bb for a battle ship, or bc for a battle cruiser),
 country the ship was built in, the number of main guns, gun caliber (bore diameter in inches), and displacement (weight in tons). 
 The Ships relation holds information about the ship name, the name of its corresponding class, and the year the ship was launched.
-The Battles relation contains names and dates of battles the ships participated in, and the Outcomes relation - the battle result for a given ship (may be sunk, damaged, or OK, the last value meaning the ship survived the battle unharmed).
+The Battles relation contains names and dates of battles the ships participated in, and the Outcomes relation - 
+the battle result for a given ship (may be sunk, damaged, or OK, the last value meaning the ship survived the battle unharmed).
 
 Notes: 
 1) The Outcomes relation may contain ships not present in the Ships relation. 
