@@ -1,8 +1,10 @@
 The database of naval ships that took part in World War II is under consideration. The database consists of the following relations:
+
 Classes(class, type, country, numGuns, bore, displacement)
 Ships(name, class, launched)
 Battles(name, date)
 Outcomes(ship, battle, result)
+
 Ships in classes all have the same general design. A class is normally assigned either the name of the first ship built according to the corresponding design,
 or a name that is different from any ship name in the database.
 The ship whose name is assigned to a class is called a lead ship.
