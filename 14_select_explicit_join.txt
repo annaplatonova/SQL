@@ -1,0 +1,7 @@
+For the ships in the Ships table that have at least 10 guns, get the class, name, and country.
+
+SELECT      C.class, name, country
+FROM        Classes C
+JOIN        Ships Sh
+      ON    C.class = Sh.class
+WHERE       numGuns >= 10

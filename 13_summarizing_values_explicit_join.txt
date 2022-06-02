@@ -1,0 +1,7 @@
+Find out the average speed of the PCs produced by maker A.
+
+SELECT    AVG(SPEED)
+FROM      PC 
+JOIN      Product 
+      ON  Product.model = PC.model
+WHERE     maker = 'A'
