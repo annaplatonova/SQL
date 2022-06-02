@@ -1,0 +1,6 @@
+Find out the maximum PC price for each maker having models in the PC table. Result set: maker, maximum price.
+
+SELECT      maker, MAX(price) AS MAX_price
+FROM        PC
+JOIN        Product ON PC.model = Product.model
+GROUP BY    maker
